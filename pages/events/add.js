@@ -18,13 +18,13 @@ const AddEventPage = () => {
     description: "",
   });
 
-  console.log(values);
+  // console.log(values);
 
   const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(values);
+    // console.log(values);
 
     const hasEmptyFields = Object.values(values).some(
       (element) => element === ""
